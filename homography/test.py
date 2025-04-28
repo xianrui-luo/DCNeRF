@@ -6,8 +6,8 @@ import numpy as np
 
 
 # sys.path.append('/home/zhaoweiyue/image-matching-benchmark-zhaochen')
-from third_party.colmap.scripts.python.read_write_model import read_model, qvec2rotmat
-from third_party.colmap.scripts.python.read_dense import read_array
+# from third_party.colmap.scripts.python.read_write_model import read_model, qvec2rotmat
+# from third_party.colmap.scripts.python.read_dense import read_array
 from imageio import imread
 import h5py
 
