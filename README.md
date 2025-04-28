@@ -7,7 +7,7 @@
 <sup>2</sup> College of Computing and Data Science, Nanyang Technological University
 
 <p align="center">
-<img src=https://github.com/notorious-eric/D2RF/blob/main/dcnerf_github.png/>
+<img src=https://github.com/xianrui-luo/DCNeRF/blob/main/dcnerf_github.png/>
 </p>
 
 ## [Data](https://1drv.ms/f/c/b1c972ed7daf3523/EpWLG5GRoJ5JoeA8Jn-9JvsBb9nr2FD-zBh2NKvrxCp4Tg) | [Paper](https://ieeexplore.ieee.org/abstract/document/10858765) 
