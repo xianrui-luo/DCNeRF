@@ -740,7 +740,7 @@ def create_nerf(args, N_image=0):
     else:
         return render_kwargs_train, render_kwargs_test, start, grad_vars, optimizer
 
-def create_nerf_test(args, N_image=0):
+def create_nerf_final(args, N_image=0):
     """
     Instantiate NeRF's MLP model.
     """
