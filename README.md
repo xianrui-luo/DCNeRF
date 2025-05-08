@@ -14,6 +14,23 @@
 
 This repository is the official PyTorch implementation of the IEEE TPAMI 2025 paper "Dual-Camera All-in-Focus Neural Radiance Fields".
 
+## Training
+First, align the main camera inputs and the ultra-wide inputs
+```
+cd align
+python align.py
+```
+
+Second, with the main images, ultra-wide images, confidence images, and the depth images (optional) as inputs, train the NeRF models
+```
+python run_nerf.py --config configs/xxx.txt
+```
+
+For evaluation
+```
+python run_nerf.py --config configs/xxx.txt --render_only --render_test
+```
+
 ## Citation
 If you find our work useful in your research, please cite our paper.
 
